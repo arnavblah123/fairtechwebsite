@@ -96,6 +96,8 @@ appears automatically. Use transparent PNGs (~400×200px):
 - [ ] `images/client_lnt.png`
 - [ ] `images/client_megha_engineering.png`
 - [ ] `images/client_pnc_infratech.png`
+- [ ] `images/client_saint_gobain.png`
+- [ ] `images/client_lm_wind_power.png`
 
 > Note: client logos are trademarks of their respective owners. Show them
 > only for companies that are genuinely your clients/customers.

@@ -62,6 +62,8 @@ roughly 400×200px, logo trimmed close to the edges.
 - `client_lnt.png`
 - `client_megha_engineering.png`
 - `client_pnc_infratech.png`
+- `client_saint_gobain.png`
+- `client_lm_wind_power.png`
 
 ## Services (placeholders — real/stock photos still needed)
 
