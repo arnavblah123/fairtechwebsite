@@ -435,6 +435,11 @@ p:last-child { margin-bottom: 0; }
 }
 .client-tile:hover { color: var(--maroon); border-color: var(--maroon); }
 .client-tile small { display: block; font-family: var(--font-body); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.04em; color: var(--muted); text-transform: none; }
+/* Logo shows only once it has successfully loaded (JS adds .has-logo);
+   until then the styled text wordmark keeps the tile looking finished. */
+.client-tile .client-logo { display: none; max-height: 56px; max-width: 100%; width: auto; object-fit: contain; }
+.client-tile.has-logo .client-logo { display: block; }
+.client-tile.has-logo .client-name { display: none; }
 
 /* ==========================================================================
    Mission strip & CTA band (diagonal edges)

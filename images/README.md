@@ -41,6 +41,27 @@ exists, the page shows a neutral striped placeholder with the item name
 - `machinery_welding_rotator.png`
 - `machinery_angle_bending.jpeg`
 - `machinery_crane.png`
+- `machinery_laser_cutting_machine.png` *(photo needed)*
+- `machinery_bending_machine.png` *(photo needed)*
+- `machinery_cnc_plasma_cutting_machine.png` *(photo needed)*
+- `machinery_shearing_machine.png` *(photo needed)*
+
+## Client logos (needed — real logos to be supplied)
+
+Drop each client's logo in with the exact filename below. Until then the
+tile shows a clean text wordmark of the company name; the logo appears
+automatically once the file exists. Prefer transparent-background PNGs,
+roughly 400×200px, logo trimmed close to the edges.
+
+- `client_thermax.png`
+- `client_forbes_marshall.png`
+- `client_tkil.png`
+- `client_transformers_rectifiers.png`
+- `client_monarch_transformers.png`
+- `client_ankur_scientific.png`
+- `client_lnt.png`
+- `client_megha_engineering.png`
+- `client_pnc_infratech.png`
 
 ## Services (placeholders — real/stock photos still needed)
 

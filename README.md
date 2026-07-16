@@ -71,6 +71,35 @@ yet. The page shows a "Photo coming soon" treatment until each file is added
 - [ ] `images/service_painting_blasting_insulation.jpg`
 - [ ] `images/service_export_packing.jpg`
 
+### 1b. New machinery photos needed (4)
+
+Referenced by `capabilities.html`; each card shows a labelled placeholder
+panel until the photo is dropped in:
+
+- [ ] `images/machinery_laser_cutting_machine.png`
+- [ ] `images/machinery_bending_machine.png`
+- [ ] `images/machinery_cnc_plasma_cutting_machine.png`
+- [ ] `images/machinery_shearing_machine.png`
+
+### 1c. Client logos needed (9)
+
+Referenced by the home trust bar and `clients.html`. Each tile shows a clean
+text wordmark of the company name until its logo file is added, then the logo
+appears automatically. Use transparent PNGs (~400×200px):
+
+- [ ] `images/client_thermax.png`
+- [ ] `images/client_forbes_marshall.png`
+- [ ] `images/client_tkil.png`
+- [ ] `images/client_transformers_rectifiers.png`
+- [ ] `images/client_monarch_transformers.png`
+- [ ] `images/client_ankur_scientific.png`
+- [ ] `images/client_lnt.png`
+- [ ] `images/client_megha_engineering.png`
+- [ ] `images/client_pnc_infratech.png`
+
+> Note: client logos are trademarks of their respective owners. Show them
+> only for companies that are genuinely your clients/customers.
+
 ### 2. Company photos
 
 All real photos are committed in `images/` — logo, ISO certificate, unit

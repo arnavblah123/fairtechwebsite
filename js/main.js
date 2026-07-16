@@ -88,6 +88,20 @@
     }
   }
 
+  /* ---- Client logos: swap the text wordmark for the real logo only once
+     the image file exists and loads. Missing logos stay as clean text. */
+  document.querySelectorAll(".client-tile .client-logo").forEach(function (logo) {
+    var tile = logo.closest(".client-tile");
+    var ok = function () { if (tile) tile.classList.add("has-logo"); };
+    var fail = function () { if (tile) tile.classList.remove("has-logo"); };
+    logo.addEventListener("load", ok);
+    logo.addEventListener("error", fail);
+    if (logo.complete) {
+      if (logo.naturalWidth > 0) ok();
+      else fail();
+    }
+  });
+
   /* ---- Footer year ---- */
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = new Date().getFullYear();
