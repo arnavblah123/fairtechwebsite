@@ -73,10 +73,15 @@ yet. The page shows a "Photo coming soon" treatment until each file is added
 
 ### 2. Company photos
 
-The `images/` folder in this repo currently contains only a README — the
-real logo, certificate, unit, product and machinery photos still need to be
-committed. `images/README.md` lists every expected filename. Pages degrade
-gracefully (named placeholder panels) until the files arrive.
+The real logo, ISO certificate, unit, product and machinery photos are all
+committed in `images/`, with one exception:
+
+- [ ] `images/machinery_magnetic_drill.png` — not yet added. The Capabilities
+  page shows a clean striped "Magnetic Drill Machine" placeholder panel until
+  this file is dropped into `images/` (no HTML change needed).
+
+`images/README.md` lists every expected filename. Any page referencing a
+missing image degrades gracefully to a named placeholder panel.
 
 ### 3. Contact form activation (one-time)
 

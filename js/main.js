@@ -74,11 +74,17 @@
 
   var brandLogo = document.querySelector(".brand-logo");
   if (brandLogo) {
-    brandLogo.addEventListener("error", function () {
+    var brand = brandLogo.closest(".brand");
+    var markLogoOk = function () { if (brand) brand.classList.add("has-logo"); };
+    var markLogoFail = function () {
       brandLogo.classList.add("img-error");
-    });
-    if (brandLogo.complete && brandLogo.naturalWidth === 0) {
-      brandLogo.classList.add("img-error");
+      if (brand) brand.classList.remove("has-logo");
+    };
+    brandLogo.addEventListener("load", markLogoOk);
+    brandLogo.addEventListener("error", markLogoFail);
+    if (brandLogo.complete) {
+      if (brandLogo.naturalWidth === 0) markLogoFail();
+      else markLogoOk();
     }
   }
 

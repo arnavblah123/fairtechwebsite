@@ -128,8 +128,11 @@ p:last-child { margin-bottom: 0; }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 72px; gap: 20px; }
 
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-logo { height: 48px; width: auto; }
+.brand-logo { height: 52px; width: auto; }
 .brand-logo.img-error { display: none; }
+/* The logo file already carries the full wordmark, so hide the text
+   version once the image loads; it stays as a fallback if the logo fails. */
+.brand.has-logo .brand-text { display: none; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong {
   font-family: var(--font-head);
