@@ -26,6 +26,7 @@ exists, the page shows a neutral striped placeholder with the item name
 - `product_structural_fabrication_1.png`
 - `product_forging_furnace_1.jpeg`
 - `product_sewage_treatment_tank_1.png`
+- `product_pressure_vessel_1.jpg`
 
 ## Machinery
 
@@ -46,34 +47,32 @@ exists, the page shows a neutral striped placeholder with the item name
 - `machinery_cnc_plasma_cutting_machine.png` *(photo needed)*
 - `machinery_shearing_machine.png` *(photo needed)*
 
-## Client logos (needed — real logos to be supplied)
+## Client logos
 
-Drop each client's logo in with the exact filename below. Until then the
-tile shows a clean text wordmark of the company name; the logo appears
-automatically once the file exists. Prefer transparent-background PNGs,
-roughly 400×200px, logo trimmed close to the edges.
+Each tile shows a text wordmark until its logo file exists, then the logo
+appears automatically. Supplied logos are live:
 
 - `client_thermax.png`
-- `client_forbes_marshall.png`
+- `client_forbes_marshall.jpg`
 - `client_tkil.png`
 - `client_transformers_rectifiers.png`
-- `client_monarch_transformers.png`
-- `client_ankur_scientific.png`
-- `client_lnt.png`
-- `client_megha_engineering.png`
-- `client_pnc_infratech.png`
-- `client_saint_gobain.png`
-- `client_lm_wind_power.png`
+- `client_monarch_transformers.jpg`
+- `client_ankur_scientific.jpg`
+- `client_lnt.png` *(not supplied yet — shows text tile)*
+- `client_megha_engineering.jpg`
+- `client_pnc_infratech.jpg`
+- `client_saint_gobain.jpg` *(supplied file is edge-cropped; a full logo is better)*
+- `client_lm_wind_power.jpg`
+- `client_nirma.png` *(supplied file is edge-cropped; a full logo is better)*
+- `client_nestle.png`
+- `client_ge.png`
 
-## Services (placeholders — real/stock photos still needed)
+## Services (real photos — all present)
 
-- `service_laser_cutting.jpg`
-- `service_plasma_cutting.jpg`
+- `service_laser_plasma_cutting.jpg`
 - `service_epc_chimney_ducting_piping.jpg`
-- `service_pressure_vessel_oil_gas.jpg`
-- `service_pressure_vessel_wastewater.jpg`
-- `service_painting_blasting_insulation.jpg`
-- `service_export_packing.jpg`
+- `service_painting_blasting.jpg`
+- `service_insulation_packing.jpg`
 
 Tip: keep photos under ~300 KB each (resize to ~1200px wide, JPEG quality
 ~75) so pages stay fast.

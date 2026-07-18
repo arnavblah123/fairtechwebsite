@@ -57,19 +57,11 @@ Every push to the connected branch redeploys automatically on all of these.
 
 ## Pre-launch checklist
 
-### 1. Service photos still needed (7 placeholders)
+### 1. Service photos — done
 
-These files are referenced by `services.html` but are **not** in `images/`
-yet. The page shows a "Photo coming soon" treatment until each file is added
-(no HTML changes needed — just drop the file in `images/`):
-
-- [ ] `images/service_laser_cutting.jpg`
-- [ ] `images/service_plasma_cutting.jpg`
-- [ ] `images/service_epc_chimney_ducting_piping.jpg`
-- [ ] `images/service_pressure_vessel_oil_gas.jpg`
-- [ ] `images/service_pressure_vessel_wastewater.jpg`
-- [ ] `images/service_painting_blasting_insulation.jpg`
-- [ ] `images/service_export_packing.jpg`
+All 4 service cards now use real photos (`service_laser_plasma_cutting.jpg`,
+`service_epc_chimney_ducting_piping.jpg`, `service_painting_blasting.jpg`,
+`service_insulation_packing.jpg`) — nothing outstanding here.
 
 ### 1b. New machinery photos needed (4)
 
@@ -81,23 +73,23 @@ panel until the photo is dropped in:
 - [ ] `images/machinery_cnc_plasma_cutting_machine.png`
 - [ ] `images/machinery_shearing_machine.png`
 
-### 1c. Client logos needed (9)
+### 1c. Client logos
 
-Referenced by the home trust bar and `clients.html`. Each tile shows a clean
-text wordmark of the company name until its logo file is added, then the logo
-appears automatically. Use transparent PNGs (~400×200px):
+14 client tiles on the home trust bar and `clients.html`. Each tile shows a
+clean text wordmark until its logo file is added, then the logo appears
+automatically.
 
-- [ ] `images/client_thermax.png`
-- [ ] `images/client_forbes_marshall.png`
-- [ ] `images/client_tkil.png`
-- [ ] `images/client_transformers_rectifiers.png`
-- [ ] `images/client_monarch_transformers.png`
-- [ ] `images/client_ankur_scientific.png`
-- [ ] `images/client_lnt.png`
-- [ ] `images/client_megha_engineering.png`
-- [ ] `images/client_pnc_infratech.png`
-- [ ] `images/client_saint_gobain.png`
-- [ ] `images/client_lm_wind_power.png`
+Logos supplied and live (13): Thermax, Forbes Marshall, TKIL, Transformers &
+Rectifiers (TARIL), Monarch Transformers, Ankur, Megha Engineering (MEIL),
+PNC Infratech, Saint-Gobain, LM Wind Power, Nirma, Nestlé, GE.
+
+Still needed / could be improved:
+- [ ] `images/client_lnt.png` — **L&T logo not yet supplied** (shows a text
+  tile meanwhile).
+- [ ] `images/client_saint_gobain.jpg` — supplied file is cropped ("AINT-GOBA");
+  a full logo would look better.
+- [ ] `images/client_nirma.png` — supplied file is cropped ("IRMA"); a full
+  logo would look better.
 
 > Note: client logos are trademarks of their respective owners. Show them
 > only for companies that are genuinely your clients/customers.
