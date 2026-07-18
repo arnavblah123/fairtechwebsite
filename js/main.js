@@ -88,18 +88,13 @@
     }
   }
 
-  /* ---- Client logos: swap the text wordmark for the real logo only once
-     the image file exists and loads. Missing logos stay as clean text. */
+  /* ---- Client logos: logos show by default (CSS). If an image genuinely
+     fails to load, fall back to the text wordmark for that tile only. */
   document.querySelectorAll(".client-tile .client-logo").forEach(function (logo) {
     var tile = logo.closest(".client-tile");
-    var ok = function () { if (tile) tile.classList.add("has-logo"); };
-    var fail = function () { if (tile) tile.classList.remove("has-logo"); };
-    logo.addEventListener("load", ok);
+    var fail = function () { if (tile) tile.classList.add("logo-failed"); };
     logo.addEventListener("error", fail);
-    if (logo.complete) {
-      if (logo.naturalWidth > 0) ok();
-      else fail();
-    }
+    if (logo.complete && logo.naturalWidth === 0) fail();
   });
 
   /* ---- Footer year ---- */
