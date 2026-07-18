@@ -96,12 +96,10 @@ Still needed / could be improved:
 
 ### 2. Company photos
 
-Most real photos are committed in `images/` — logo, ISO certificate, Unit-1
-& Unit-2 plants, all 12 product photos and 12 machinery photos. Still needed:
-
-- [ ] `images/unit3_savli_plant.png` — Unit-3 (Savli, Vadodara) plant photo.
-  It's referenced on the About and Capabilities pages and shows a labelled
-  placeholder until added.
+All real photos are committed in `images/` — logo, ISO certificate, all
+three plant photos (Unit-1 Chinchwad, Unit-2 Dehu and Unit-3 Savli, the
+latter two taken from the company profile PDF), all 12 product photos and
+12 machinery photos.
 
 The folder also includes extra product variant photos (e.g.
 `product_chimney_2.jpeg`) not yet used on any page — available for a future
