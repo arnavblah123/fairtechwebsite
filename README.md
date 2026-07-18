@@ -96,23 +96,26 @@ Still needed / could be improved:
 
 ### 2. Company photos
 
-All real photos are committed in `images/` — logo, ISO certificate, unit
-plants, all 11 product photos and all 12 machinery photos. The folder also
-includes extra product variant photos (e.g. `product_chimney_2.jpeg`,
-`product_air_preheater_3.png`) that are not yet used on any page but are
-available if you want to add a gallery or swap the primary image.
+Most real photos are committed in `images/` — logo, ISO certificate, Unit-1
+& Unit-2 plants, all 12 product photos and 12 machinery photos. Still needed:
 
-`images/README.md` lists the expected filenames. If any image is ever
-missing, the page degrades gracefully to a named placeholder panel.
+- [ ] `images/unit3_savli_plant.png` — Unit-3 (Savli, Vadodara) plant photo.
+  It's referenced on the About and Capabilities pages and shows a labelled
+  placeholder until added.
+
+The folder also includes extra product variant photos (e.g.
+`product_chimney_2.jpeg`) not yet used on any page — available for a future
+gallery or image swap. If any image is ever missing, the page degrades
+gracefully to a named placeholder panel.
 
 ### 3. Contact form activation (one-time)
 
 The contact form posts to [formsubmit.co](https://formsubmit.co) targeting
-`info@fairtechengineers.co`. After the site is live, submit the form once —
-FormSubmit sends a confirmation email to that inbox; click the activation
-link and all subsequent submissions will be delivered. Optional hardening:
-replace the email in the form `action` with the random alias FormSubmit
-gives you after activation, so the address isn't scraped from the HTML.
+`marketing@fairtechengineers.co`. After the site is live, submit the form
+once — FormSubmit sends a confirmation email to that inbox; click the
+activation link and all subsequent submissions will be delivered. Optional
+hardening: replace the email in the form `action` with the random alias
+FormSubmit gives you after activation, so the address isn't scraped from HTML.
 
 ### 4. Domain in SEO files
 

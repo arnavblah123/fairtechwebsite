@@ -277,6 +277,32 @@ p:last-child { margin-bottom: 0; }
 .grid.two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 720px) { .grid.two-up { grid-template-columns: 1fr; } }
 
+/* Stat tiles (capabilities overview) */
+.stat-tile {
+  text-align: center;
+  padding: 26px 18px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--maroon);
+  border-radius: var(--radius);
+}
+.stat-tile b {
+  display: block;
+  font-family: var(--font-head);
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--maroon);
+}
+.stat-tile span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .card {
   background: #fff;
   border: 1px solid var(--line);
