@@ -42,10 +42,9 @@ exists, the page shows a neutral striped placeholder with the item name
 - `machinery_welding_rotator.png`
 - `machinery_angle_bending.jpeg`
 - `machinery_crane.png`
-- `machinery_laser_cutting_machine.png` *(photo needed)*
-- `machinery_bending_machine.png` *(photo needed)*
-- `machinery_cnc_plasma_cutting_machine.png` *(photo needed)*
-- `machinery_shearing_machine.png` *(photo needed)*
+- `machinery_laser_plasma_machine.jpg`
+- `machinery_bending_machine.png`
+- `machinery_shearing_machine.png`
 
 ## Client logos
 
@@ -58,7 +57,7 @@ appears automatically. Supplied logos are live:
 - `client_transformers_rectifiers.png`
 - `client_monarch_transformers.jpg`
 - `client_ankur_scientific.jpg`
-- `client_lnt.png` *(not supplied yet — shows text tile)*
+- `client_lnt.png`
 - `client_megha_engineering.jpg`
 - `client_pnc_infratech.jpg`
 - `client_saint_gobain.jpg` *(supplied file is edge-cropped; a full logo is better)*

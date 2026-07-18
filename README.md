@@ -63,33 +63,25 @@ All 4 service cards now use real photos (`service_laser_plasma_cutting.jpg`,
 `service_epc_chimney_ducting_piping.jpg`, `service_painting_blasting.jpg`,
 `service_insulation_packing.jpg`) — nothing outstanding here.
 
-### 1b. New machinery photos needed (4)
+### 1b. New machinery photos — done
 
-Referenced by `capabilities.html`; each card shows a labelled placeholder
-panel until the photo is dropped in:
+The `capabilities.html` shop-floor cards all have photos now:
+`machinery_laser_plasma_machine.jpg` (Laser & Plasma Machine, reusing the
+services cutting photo), `machinery_bending_machine.png`, and
+`machinery_shearing_machine.png` (both use the supplied press-brake photo).
 
-- [ ] `images/machinery_laser_cutting_machine.png`
-- [ ] `images/machinery_bending_machine.png`
-- [ ] `images/machinery_cnc_plasma_cutting_machine.png`
-- [ ] `images/machinery_shearing_machine.png`
+### 1c. Client logos — all 14 live
 
-### 1c. Client logos
+All 14 client tiles on the home trust bar and `clients.html` now show real
+logos: Thermax, Forbes Marshall, TKIL, Transformers & Rectifiers (TARIL),
+Monarch Transformers, Ankur, L&T, Megha Engineering (MEIL), PNC Infratech,
+Saint-Gobain, LM Wind Power, Nirma, Nestlé, GE.
 
-14 client tiles on the home trust bar and `clients.html`. Each tile shows a
-clean text wordmark until its logo file is added, then the logo appears
-automatically.
-
-Logos supplied and live (13): Thermax, Forbes Marshall, TKIL, Transformers &
-Rectifiers (TARIL), Monarch Transformers, Ankur, Megha Engineering (MEIL),
-PNC Infratech, Saint-Gobain, LM Wind Power, Nirma, Nestlé, GE.
-
-Still needed / could be improved:
-- [ ] `images/client_lnt.png` — **L&T logo not yet supplied** (shows a text
-  tile meanwhile).
-- [ ] `images/client_saint_gobain.jpg` — supplied file is cropped ("AINT-GOBA");
-  a full logo would look better.
-- [ ] `images/client_nirma.png` — supplied file is cropped ("IRMA"); a full
-  logo would look better.
+Could still be improved (source files are edge-cropped):
+- [ ] `images/client_saint_gobain.jpg` — cropped ("AINT-GOBA"); a full logo
+  would look better.
+- [ ] `images/client_nirma.png` — cropped ("IRMA"); a full logo would look
+  better.
 
 > Note: client logos are trademarks of their respective owners. Show them
 > only for companies that are genuinely your clients/customers.
